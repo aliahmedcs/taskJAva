@@ -1,0 +1,20 @@
+                                                                  
+                                                                 السلام عليكم ورحمة الله وبركاته
+                                                                 
+                                                                 
+1-this web service uses spring boot security so for (/register,/login,/all) services need basic authintication in header so enter these fields (user,abcdefghijklmnOPQRSTUVWXYZ)
+
+2- I mean to use three users consists of userName and passwords as follows(admin,admin) (user,user) and (adminstrativeUser,admin123)
+and this is the link on localhost
+
+>>>>>>>>>>http://localhost:8080/api/any
+
+
+3-to access the other functional services (/uploadImage, /unProcessedPictures, /, /acceptPicture
+, /rejectPicture, /getPictureDetails)
+
+>>>I use in these webservices JWT authintication technology for secure my api this token will be available for 1 day and in the next login will be chaned so after login you will give access token you can put it in header directly with (authorization for userName and Bearer your-access-token
+you can access them from this link on local machine
+
+>>>>>>>>>>http://localhost:8080/api/auth
+
